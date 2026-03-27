@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Crown background -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Jersey shape -->
+  <g>
+    <!-- Main jersey body -->
+    <path d="M 60 50 L 60 130 Q 60 140 70 140 L 130 140 Q 140 140 140 130 L 140 50 Z" fill="url(#logoGradient)" stroke="#FF6B35" stroke-width="2"/>
+    
+    <!-- Neckline -->
+    <circle cx="100" cy="50" r="18" fill="#0f0f0f" stroke="#FF6B35" stroke-width="2"/>
+    
+    <!-- Jersey collar -->
+    <ellipse cx="100" cy="48" rx="20" ry="8" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+    
+    <!-- Center chest stripe -->
+    <rect x="97" y="60" width="6" height="70" fill="#FF6B35" opacity="0.8"/>
+    
+    <!-- Jersey number/badge -->
+    <circle cx="100" cy="85" r="20" fill="#FF6B35" stroke="#FFD700" stroke-width="2"/>
+    <text x="100" y="92" font-size="28" font-weight="bold" text-anchor="middle" fill="#FFD700" font-family="Arial">J</text>
+    
+    <!-- Left sleeve accent -->
+    <rect x="65" y="60" width="12" height="50" fill="#FF6B35" opacity="0.6" rx="4"/>
+    
+    <!-- Right sleeve accent -->
+    <rect x="123" y="60" width="12" height="50" fill="#FF6B35" opacity="0.6" rx="4"/>
+    
+    <!-- Star accents -->
+    <circle cx="80" cy="55" r="4" fill="#FFD700"/>
+    <circle cx="120" cy="55" r="4" fill="#FFD700"/>
+    <circle cx="75" cy="135" r="3" fill="#FFD700"/>
+    <circle cx="125" cy="135" r="3" fill="#FFD700"/>
+  </g>
+  
+  <!-- Shield outline (optional premium look) -->
+  <path d="M 100 30 L 140 50 L 140 140 Q 100 160 60 140 L 60 50 Z" fill="none" stroke="#FFD700" stroke-width="1.5" opacity="0.5"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Green rounded square background -->
+  <rect x="20" y="20" width="160" height="160" rx="40" fill="#25D366"/>
+  
+  <!-- White speech bubble with phone handset -->
+  <g transform="translate(100, 100)">
+    <!-- Outer circle/bubble outline -->
+    <circle cx="0" cy="0" r="55" fill="white"/>
+    
+    <!-- Phone handset icon (white on green would be inside) -->
+    <!-- Left earpiece -->
+    <circle cx="-18" cy="-20" r="7" fill="#25D366"/>
+    
+    <!-- Right earpiece -->
+    <circle cx="18" cy="-20" r="7" fill="#25D366"/>
+    
+    <!-- Connecting lines from earpieces to main body -->
+    <path d="M -18 -13 L -14 -5" stroke="#25D366" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 18 -13 L 14 -5" stroke="#25D366" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Main phone body (handset) -->
+    <ellipse cx="0" cy="8" rx="28" ry="32" fill="#25D366"/>
+    
+    <!-- Handset curve detail -->
+    <path d="M -20 -2 Q 0 15 20 -2" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Subtle speech bubble indicator at bottom -->
+    <polygon points="0,42 -8,52 8,52" fill="white"/>
+  </g>
+</svg>
